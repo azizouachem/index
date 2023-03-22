@@ -1,0 +1,166 @@
+nav{
+    display: inline-block;
+    font-style:normal;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: aliceblue;
+   padding-left: 1000px;
+   position: fixed;
+
+}
+.menu{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img1.jpg);
+    background-position: bottom;
+    background-size: cover;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+}
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line{
+   width: 150px;
+   height: 4px;
+   background: #fc036b;
+   margin: 10px auto;
+   
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding: 4px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-style: italic;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.row .col{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#home{
+    width: 100%;
+    margin: 80px auto;
+    margin-top: 0%;
+    background-image: url(./home.gif);
+    background-size: cover;
+    background-position: 0%;
+}
+.titre{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(19, 43, 108);
+}
+a{
+    color: rgb(247, 247, 247);
+    text-decoration: underline;
+}
+a:hover{
+    color: rgb(30, 85, 152);
+}
+#about{
+    display: inline;
+    align-items: center;
+}
+.videotext{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.videoT{
+   color: rgb(19, 43, 108) ;
+    width: 400px;
+    display:inline-block;
+    text-align: center;
+    
+}
+.video{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+
+}
+
+#text{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(19, 43, 108);
+}
+
+		
+		
+
+	
+
+#list{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(69, 159, 243);
+}
+.title2{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(19, 43, 108);
+}
+.text2{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(19, 43, 108);
+}
+#work{
+    align-items: center;
+    width: 100%;
+
+    font-size: 4vmin;
+    background-image: url(./dow.gif);
+    background-size: cover;
+}
+#resume{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(19, 43, 108);
+    background-image: url(./download.jpeg);
+    background-size: cover;
+}
+#contact{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(19, 43, 108);
+    background-image: url(./contactus.gif);
+    background-size: cover;
+    background-position: 0%;
+    margin-top: 0px;
+}
+
